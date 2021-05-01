@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">kilo-Metragens</string>
+    <string name="quantidadeCentimetros">Digite um valor em centímetros. Exemplo: 200</string>
+    <string name="comandoButton">Calcular Metragens</string>
+    <string name="mensagemMetros">Quantidade em Metros</string>
+    <string name="mensagemQuilometros">Quantidade em Quilômetros</string>
+</resources>
