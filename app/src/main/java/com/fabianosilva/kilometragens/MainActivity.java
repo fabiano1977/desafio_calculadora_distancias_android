@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.text.DecimalFormat;
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText editCentimetros;
@@ -27,10 +29,12 @@ public class MainActivity extends AppCompatActivity {
     public void calcularMetragens (View view){
         double centimetros = Double.parseDouble(editCentimetros.getText().toString());
 
+
         double totalMetros = centimetros / 100;
         double totalQuilometros = centimetros / 100000;
 
-        resultadoQuilometros.setText(totalQuilometros + " Km.");
-        resultadoMetros.setText(totalMetros + " m.");
+        resultadoQuilometros.setText("A QUANTIDADE É DE "+ totalQuilometros + " Km.");
+        resultadoMetros.setText("A QUANTIDADE É DE "+ totalMetros + " M");
+
     }
 }
